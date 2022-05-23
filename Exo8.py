@@ -15,3 +15,30 @@ print(coordinates2)
         
 
 
+"""
+ordinates=[]
+for i in coordinates :
+    print (i[0])
+    ordinates.append(i[1])
+print(ordinates)
+
+
+dic_coord={}
+
+for i in coordinates :
+    v=(i[1])
+    c= str(i[0])
+    dic_coord[v]=c
+print(dic_coord)"""
+
+dic_coord={}
+i=0
+while i < len(coordinates2) :
+    c=coordinates2[i][0]
+    v=coordinates2[i][1]
+    dic_coord[c]=v
+    i=i+1
+print(dic_coord)
+
+
+
